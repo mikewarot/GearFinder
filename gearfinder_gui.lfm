@@ -1,88 +1,96 @@
 object Form1: TForm1
-  Left = 744
-  Height = 552
-  Top = 199
-  Width = 863
+  Left = 496
+  Height = 442
+  Top = 160
+  Width = 690
   Caption = 'Gear Set Finder'
-  ClientHeight = 552
-  ClientWidth = 863
-  DesignTimePPI = 120
+  ClientHeight = 442
+  ClientWidth = 690
   LCLVersion = '2.0.6.0'
   object DesiredRatio: TFloatSpinEdit
-    Left = 208
-    Height = 28
-    Top = 64
-    Width = 327
+    Left = 166
+    Height = 23
+    Top = 51
+    Width = 262
     DecimalPlaces = 10
     Increment = 0.0001
     MaxValue = 20
     MinValue = 0.05
+    ParentFont = False
     TabOrder = 0
     Value = 3.1415926536
   end
   object Label1: TLabel
-    Left = 54
-    Height = 20
-    Top = 69
-    Width = 128
+    Left = 43
+    Height = 15
+    Top = 55
+    Width = 99
     Caption = 'Desired Gear Ratio:'
     ParentColor = False
+    ParentFont = False
   end
   object LowestGear: TSpinEdit
-    Left = 210
-    Height = 28
-    Top = 134
-    Width = 134
+    Left = 168
+    Height = 23
+    Top = 107
+    Width = 107
     MaxValue = 200
     MinValue = 10
+    ParentFont = False
     TabOrder = 1
     Value = 20
   end
   object HighestGear: TSpinEdit
-    Left = 397
-    Height = 28
-    Top = 134
-    Width = 143
+    Left = 318
+    Height = 23
+    Top = 107
+    Width = 114
     MaxValue = 200
     MinValue = 10
+    ParentFont = False
     TabOrder = 2
     Value = 100
   end
   object Label2: TLabel
-    Left = 56
-    Height = 20
-    Top = 142
-    Width = 103
+    Left = 45
+    Height = 15
+    Top = 114
+    Width = 80
     Caption = 'Available Gears'
     ParentColor = False
+    ParentFont = False
   end
   object Memo1: TMemo
-    Left = 64
-    Height = 219
-    Top = 229
-    Width = 484
+    Left = 51
+    Height = 175
+    Top = 183
+    Width = 387
     Lines.Strings = (
       'Memo1'
     )
+    ParentFont = False
     ScrollBars = ssAutoBoth
     TabOrder = 3
   end
   object Button1: TButton
-    Left = 656
-    Height = 31
-    Top = 70
-    Width = 94
+    Left = 525
+    Height = 25
+    Top = 56
+    Width = 75
     Caption = 'Find Gears'
+    Default = True
     OnClick = Button1Click
+    ParentFont = False
     TabOrder = 4
   end
   object Button2: TButton
-    Left = 656
-    Height = 31
-    Top = 417
-    Width = 94
+    Left = 525
+    Height = 25
+    Top = 334
+    Width = 75
     Caption = 'Random'
     OnClick = Button2Click
+    ParentFont = False
     TabOrder = 5
   end
 end
