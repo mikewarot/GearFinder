@@ -75,7 +75,7 @@ begin
   ratio := (double(best_a)/double(best_b)) * (double(best_c)/double(best_d));
   delta := (ratio-goal);
   error := delta/goal;
-  description := 'Summary: The lead is ' + error.ToString(ffFixed,1,10) + ' inches/inch';
+  description := 'Summary: The lead ERROR is ' + error.ToString(ffFixed,1,10) + ' inches/inch';
   memo1.Append(description);
   error := error * 1000000.0;
   description := '  or  ' +  error.ToString(ffFixed,1,5) + ' parts per Million';
