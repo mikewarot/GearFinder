@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="gearfinder.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="gearfinder_gui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="38" Y="30"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="20" Column="38"/>
+      </Position1>
+      <Position2>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="24" Column="38"/>
+      </Position2>
+      <Position3>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="25" Column="38"/>
+      </Position3>
+      <Position4>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="26" Column="38"/>
+      </Position4>
+      <Position5>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="27" Column="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="28" Column="38"/>
+      </Position6>
+      <Position7>
+        <Filename Value="gearfinder_gui.pas"/>
+        <Caret Line="29" Column="38"/>
+      </Position7>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
