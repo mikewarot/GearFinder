@@ -1,17 +1,17 @@
 object Form1: TForm1
-  Left = 496
+  Left = 714
   Height = 442
-  Top = 160
+  Top = 168
   Width = 690
   Caption = 'Gear Set Finder'
   ClientHeight = 442
   ClientWidth = 690
   LCLVersion = '2.2.6.0'
   object DesiredRatio: TFloatSpinEdit
-    Left = 166
+    Left = 192
     Height = 29
     Top = 51
-    Width = 262
+    Width = 236
     DecimalPlaces = 10
     Increment = 0.0001
     MaxValue = 20
@@ -74,7 +74,7 @@ object Form1: TForm1
   end
   object Button1: TButton
     Left = 496
-    Height = 25
+    Height = 57
     Top = 56
     Width = 112
     Caption = 'Find Gears'
